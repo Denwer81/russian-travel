@@ -1,6 +1,6 @@
 .foto-grid__items {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   gap: 12px;
   max-width: 100%;
   list-style: none;
@@ -10,29 +10,23 @@
 
 @media screen and (min-width: 768px) {
   .foto-grid__items {
-    grid-template-columns: 1fr 1fr;
     gap: 16px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .foto-grid__items {
-    grid-template-columns: repeat(3, 1fr) ;
     gap: 14px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .foto-grid__items {
-    grid-template-columns: repeat(4, 1fr) ;
     gap: 16px;
   }
 }
 
 .foto-grid__item {
-}
-
-.foto-grid__foto {
   display: block;
   max-width: 100%;
   object-fit: contain;
