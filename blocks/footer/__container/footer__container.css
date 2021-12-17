@@ -1,7 +1,3 @@
-.footer__container {
-  padding-bottom: 24px;
-}
-
 @media screen and (min-width: 768px) {
   .footer__container {
     display: flex;
