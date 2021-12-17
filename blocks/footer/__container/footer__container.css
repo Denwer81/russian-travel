@@ -1,5 +1,4 @@
 .footer__container {
-  padding-top: 64px;
   padding-bottom: 24px;
 }
 
@@ -8,15 +7,5 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding-top: 88px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .footer__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    padding-top: 92px;
   }
 }

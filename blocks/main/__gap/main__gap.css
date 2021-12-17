@@ -1,0 +1,15 @@
+.main__gap {
+  margin-bottom: 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .main__gap {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main__gap {
+    margin-bottom: 92px;
+  }
+}
