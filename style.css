@@ -1,33 +1,13 @@
-.foto-grid__items {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-  gap: 12px;
-  max-width: 100%;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
 
-@media screen and (min-width: 768px) {
-  .foto-grid__items {
-    gap: 16px;
-  }
-}
 
-@media screen and (min-width: 1024px) {
-  .foto-grid__items {
-    gap: 14px;
-  }
-}
 
-@media screen and (min-width: 1280px) {
-  .foto-grid__items {
-    gap: 16px;
-  }
-}
 
-.foto-grid__item {
-  display: block;
-  max-width: 100%;
-  object-fit: contain;
-}
+
+
+
+
+
+
+
+
+

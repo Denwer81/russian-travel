@@ -1,0 +1,12 @@
+.card__link {
+  font-size: 18px;
+  line-height: 1.22;
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px solid white;
+  transition: .2s ease-in;
+}
+
+.card__link:hover {
+  opacity: .8;
+}

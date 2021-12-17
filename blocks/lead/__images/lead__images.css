@@ -3,13 +3,13 @@
   max-width: 984px;
 }
 
-@media screen and (min-width: 855px) {
+@media screen and (min-width: 960px) {
   .lead__images {
     padding: 0 24px;
   }  
 }
 
-@media screen and (min-width: 990px) {
+@media screen and (min-width: 1024px) {
   .lead__images {
     padding: 0 48px;
   }  
