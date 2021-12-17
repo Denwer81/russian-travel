@@ -2,7 +2,7 @@
   display: block;
   position: relative;
   width: 100%;
-  background-image: url(./images/cover-trains__mobile.jpg);
+  background-image: url(../../../images/cover-trains__mobile.jpg);
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: contain;
@@ -31,6 +31,6 @@
 
 @media screen and (min-width: 768px) {
   .cover__link {
-    background-image: url(./images/cover-trains.jpg);
+    background-image: url(../../../images/cover-trains__mobile.jpg);
   }
 }
