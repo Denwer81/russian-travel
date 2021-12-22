@@ -3,7 +3,7 @@
   row-gap: 32px;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 768px) {
   .card {
     grid-template-columns: 340px 1fr;
     column-gap: 28px;
