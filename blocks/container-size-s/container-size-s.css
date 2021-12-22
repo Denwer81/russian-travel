@@ -1,0 +1,11 @@
+@media screen and (min-width: 768px) {
+  .container-size-s {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container-size-s {
+    padding: 0 48px;
+  }
+}
